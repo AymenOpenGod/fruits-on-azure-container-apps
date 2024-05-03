@@ -11,7 +11,7 @@ variable "environment" {
 variable "region" {
   description = "Azure deployment region"
   type        = string
-  default     = "we"
+  default     = "East US"
 }
 
 variable "application" {
@@ -23,7 +23,7 @@ variable "application" {
 variable "location" {
   description = "Azure deployment location"
   type        = string
-  default     = "westeurope"
+  default     = "East US"
 }
 
 variable "resource_group_name_suffix" {
